@@ -1,0 +1,45 @@
+{
+  "name": "claude-night-day-theme",
+  "displayName": "Claude Night/Day",
+  "description": "A warm, comfortable VS Code theme inspired by Claude AI's web interface. High contrast without glaring whites or harsh blacks.",
+  "version": "1.0.0",
+  "publisher": "YOUR_PUBLISHER_NAME",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "claude",
+    "anthropic",
+    "dark",
+    "light",
+    "warm",
+    "cream",
+    "night",
+    "day",
+    "comfortable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Day",
+        "uiTheme": "vs",
+        "path": "./themes/claude-day-color-theme.json"
+      },
+      {
+        "label": "Claude Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-night-color-theme.json"
+      }
+    ]
+  }
+}
