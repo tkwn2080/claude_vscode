@@ -3,9 +3,8 @@
   "displayName": "Claude Night/Day",
   "description": "A warm, comfortable VS Code theme inspired by Claude AI's web interface. High contrast without glaring whites or harsh blacks.",
   "version": "1.0.0",
-  "publisher": "YOUR_PUBLISHER_NAME",
+  "publisher": "tkwn2080",
   "license": "MIT",
-  "icon": "icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -26,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tkwn2080/claude_vscode"
   },
   "contributes": {
     "themes": [
